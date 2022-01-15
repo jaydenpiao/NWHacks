@@ -13,8 +13,8 @@ body{
 li{
     margin-left: 80px;
     border-radius: 2px;
-    background-color: rgb(109, 55, 190);
-    border: 2px solid rgb(109, 55, 190);
+    background-color: rgb(154, 99, 236);
+    border: 2px solid rgb(154, 99, 236);
 }
 li:first-child{
     margin-left: 0px;
@@ -43,14 +43,14 @@ a{
 #button{
     background-color: rgb(112, 230, 230);
     font-weight: bold;
-    border: 2px solid rgb(112, 230, 230);
+    border: 1px solid black;
     border-radius: 2px;
     margin-left: 45%;
     margin-right: 35%;
 }
 #button:hover{
     background-color: rgb(72, 177, 177);
-    border: 2px solid rgb(72, 177, 177);
+    border: 1px solid black;
 }
 #title{
     margin-left: 1%;
