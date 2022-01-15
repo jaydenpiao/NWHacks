@@ -5,7 +5,7 @@ window.onload=function(){
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // model cloud link
-    const URL = "https://teachablemachine.withgoogle.com/models/gSqPfZp0n/";
+    const URL = "https://teachablemachine.withgoogle.com/models/RFwZ3iGHa/";
 
     let model, webcam, labelContainer, maxPredictions;
 
