@@ -1,0 +1,61 @@
+body{
+    color: lightgray;
+    background-color:  rgb(33,33,33);
+    font-family: "Open Sans", sans-serif;
+}
+#b{
+    background-color: rgb(33,33,33);
+}
+ .row{
+    align-items: center;
+    background-color: rgb(18,18,18);;
+}
+li{
+    margin-left: 80px;
+    border-radius: 2px;
+    background-color: rgb(183,135,254);
+    border: 2px solid rgb(183,135,254);
+}
+li:first-child{
+    margin-left: 0px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+#webcam-main{
+    border: 2px solid white;
+    height : 100%;
+}
+#webcam-container{
+    margin-left: 33.3%;
+}
+#label-main{
+    border: 2px solid white;
+    height : 100%;
+}
+a{
+    color : lightgray;
+}
+#button{
+    background-color: rgb(112, 230, 230);
+    font-weight: bold;
+    border: 2px solid rgb(112, 230, 230);
+    border-radius: 2px;
+    margin-left: 45%;
+    margin-right: 35%;
+}
+#button:hover{
+    background-color: rgb(72, 177, 177);
+    border: 2px solid rgb(72, 177, 177);
+}
+#title{
+    margin-left: 30%;
+}
+#title2{
+    margin-left: 28%;
+    border: none;
+}
