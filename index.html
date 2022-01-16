@@ -22,9 +22,21 @@
             <div class="row" id="nav" style="height: 7.5%;">
                 <ul id="title2" class="nav nav-tabs">
                     <li class="active"><a href="#">Home</a></li>      
-                    <li><a href="https://www.handspeak.com/word/most-used/">Sign translations</a></li>
-                    <li><a href="#">Login </a></li>
-                    <li><a href="#">Signup</a></li>
+                    <li><a href="https://www.handspeak.com/word/most-used/">Sign Translations</a></li>
+                    <div class="login-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Username" name="username">
+                            <input type="text" placeholder="Password" name="psw">
+                            <button type="submit">Login</button>                        
+                        </form>
+                    </div>
+                    <div class="signup-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Create Username" name="create_username">
+                            <input type="text" placeholder="Create Password" name="create_psw">
+                            <button type="submit">Signup</button>                        
+                        </form>
+                    </div>
                   </ul>
             </div>
             <br><br>
