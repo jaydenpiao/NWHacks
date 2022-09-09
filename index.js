@@ -2,7 +2,7 @@ window.onload=function(){
     document.getElementById("button").addEventListener("click",init);
 } 
     // model cloud link
-    const URL = "https://teachablemachine.withgoogle.com/models/RFwZ3iGHa/";
+    const URL = "https://teachablemachine.withgoogle.com/models/5TSkn9Dl5/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -49,7 +49,14 @@ window.onload=function(){
             //const classPrediction = ans;
             //const classPrediction = prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             //labelContainer.childNodes[i].innerHTML = ans;
-            if((i == (maxPredictions-1)))
-                labelContainer.innerHTML = ans;
+            if((i == (maxPredictions-1))){
+                const currString = labelContainer.innerHTML;
+                if(currString.slice(-1) != ans){
+                    if(ans == "space")
+                      labelContainer.innerHTML+=" ";
+                    else
+                      labelContainer.innerHTML+= ans;
+                }
+            }
         }
     }
